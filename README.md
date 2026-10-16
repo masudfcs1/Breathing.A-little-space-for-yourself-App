@@ -98,7 +98,7 @@ Settings include profile preferences, light/dark/system appearance, larger text,
 
 On first launch the app displays clearly marked example activity generated across approximately 45 days. It is held separately from real session history. Use the “Example mode” control to switch to personal activity. Finishing a real practice switches to personal activity automatically; sample sessions are never added to a backup or counted as real practice.
 
-AsyncStorage holds a versioned application snapshot under `@breathing/app-data/v1`. In the browser it uses that browser origin's local storage. Serialized writes preserve update ordering; duplicate completion IDs are idempotent. Import validates the complete backup before replacing local data, and the interface previews the replacement. A malformed stored payload is copied to a recovery key where possible before reporting a load error.
+AsyncStorage holds a versioned application snapshot under `@breathing/app-data/v1`. In the browser it uses that browser origin's local storage. Serialized writes preserve update ordering; duplicate completion IDs are idempotent. Import validates the complete backup before replacing local data, and the interface previews the replacement. A malformed stored payload is copied to a recovery key where possible before reporting a load error...
 
 Browser exports download a JSON file. Native export uses the system share sheet. Imports accept pasted JSON on all platforms, with file selection additionally available in the browser. Import replaces the current local snapshot; it does not merge histories. Export a backup before clearing data or switching devices. This storage is not an encrypted vault or a cross-device sync service.
 
