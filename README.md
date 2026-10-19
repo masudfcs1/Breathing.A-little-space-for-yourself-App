@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/masudfcs1/Breathing.A-little-space-for-yourself-ReatNative/actions/workflows/ci.yml/badge.svg)](https://github.com/masudfcs1/Breathing.A-little-space-for-yourself-ReatNative/actions/workflows/ci.yml)
 
-A local-first React Native wellness application with a responsive browser preview. A white day theme with soft lavender accents, a forest-green night theme, original SVG artwork, and a gently animated breathing orb create a calm visual identity. React Native components power both the mobile and browser interfaces.
+A local-first React Native wellness application with a responsive browser preview. A white day theme with soft lavender accents, a forest-green night theme, original SVG artwork, and a gently animated breathing orb create a calm visual identity. React Native components power both the mobile and browser interfaces...
 
 There is no backend, account system, analytics service, or external data API. Personal practice data stays on the current device/browser unless the user exports it..
 
