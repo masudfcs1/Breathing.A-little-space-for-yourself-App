@@ -36,7 +36,7 @@ npm ci
 npm run dev
 ```
 
-Open the local address printed by Vite, normally `http://localhost:5173`. The browser layout adapts from a mobile tab bar to a desktop sidebar. `npm run web` starts the same browser development server.
+Open the local address printed by Vite, normally `http://localhost:5173`. The browser layout adapts from a mobile tab bar to a desktop sidebar. `npm run web` starts the same browser development server....
 
 For native development:
 
