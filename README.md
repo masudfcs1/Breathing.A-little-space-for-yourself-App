@@ -92,7 +92,7 @@ Generated `reports/`, `dist/`, and `dist-native/` output is ignored by Git. Sele
 5. Completion saves the actual active practice time and fully completed rounds. Preparation and paused time do not count. A save failure offers retry; leaving without saving requires confirmation.
 6. Review dates, recent activity, category use, streaks, trends, and daily/weekly minute goals. Recommendations are deterministic calculations from local history, favorites, and device time.
 
-Settings include profile preferences, light/dark/system appearance, larger text, higher contrast, reduced motion, session defaults, backup import/export, and history clearing. Auto-start is opt-in and skips configuration using saved defaults. Native devices expose phase haptics; browser haptic controls are intentionally omitted.
+Settings include profile preferences, light/dark/system appearance, larger text, higher contrast, reduced motion, session defaults, backup import/export, and history clearing. Auto-start is opt-in and skips configuration using saved defaults. Native devices expose phase haptics; browser haptic controls are intentionally omitted...
 
 ## Local data and example activity
 
