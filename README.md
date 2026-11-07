@@ -125,7 +125,7 @@ The browser production entry registers an app-shell service worker. Offline relo
 | `src/data/` | Presets, defaults, deterministic example history |
 | `src/types/` | Shared domain types |
 
-The timer derives phase, progress, remaining time, and rounds from elapsed timestamps rather than counting intervals. A delayed render does not extend a session. The orb runs one React Native `Animated` animation per moving phase, with the native driver on mobile and the browser animation driver on web. It resynchronizes on phase changes, round changes, and resume. Reduced motion preserves the guide and timer while keeping the orb still. Reanimated is installed for future richer motion but is not required by the current orb implementation.
+The timer derives phase, progress, remaining time, and rounds from elapsed timestamps rather than counting intervals. A delayed render does not extend a session. The orb runs one React Native `Animated` animation per moving phase, with the native driver on mobile and the browser animation driver on web. It resynchronizes on phase changes, round changes, and resume. Reduced motion preserves the guide and timer while keeping the orb still. Reanimated is installed for future richer motion but is not required by the current orb implementation.....
 
 Session configuration and confirmation dialogs share one native modal presentation to avoid competing iOS modal transitions. Screen-reader labels cover timer state and controls; native phase announcements happen at phase changes rather than every clock update.
 
